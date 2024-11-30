@@ -1,0 +1,41 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: notification
+  banner:
+    location: banner.txt
+  datasource:
+    password: postgres
+    url: jdbc:postgresql://138.124.15.167:5436/notification
+    username: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      show-sql: true
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/ # Eureka server URL
+    fetch-registry: true  # Fetch registry from Eureka server
+    register-with-eureka: true # Register this service with Eureka
+management:
+  prometheus:
+    metrics:
+      export:
+        enabled: true
+        pushgateway:
+          base-url: http://138.124.15.167:9090
+  endpoints:
+    web:
+      exposure:
+        include: prometheus, health, info
+  endpoint:
+    prometheus:
+      enabled: true
+

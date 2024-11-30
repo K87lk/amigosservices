@@ -1,0 +1,6 @@
+${AnsiColor.RED}    ______                     __
+${AnsiColor.RED}   / ____/________ ___  ______/ /
+${AnsiColor.RED}  / /_  / ___/ __ `/ / / / __  /
+${AnsiColor.RED} / __/ / /  / /_/ / /_/ / /_/ /
+${AnsiColor.RED}/_/   /_/   \__,_/\__,_/\__,_/
+${AnsiColor.DEFAULT}

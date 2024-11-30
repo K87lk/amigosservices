@@ -1,0 +1,5 @@
+${AnsiColor.BLUE}    ______                __
+${AnsiColor.BLUE}   / ____/_  __________  / /______ _
+${AnsiColor.BLUE}  / __/ / / / / ___/ _ \/ //_/ __ `/
+${AnsiColor.BLUE} / /___/ /_/ / /  /  __/ ,< / /_/ /
+${AnsiColor.BLUE}/_____/\__,_/_/   \___/_/|_|\__,_/
